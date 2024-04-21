@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: rashmif5/sample-demo:v1
+        image: rashmif5/sample-demo:v1 sha256:e42b8972873110acd3b2be192d61a38ffba3b30e2437659a3211b665158234c2
         ports:
         - containerPort: 8000
